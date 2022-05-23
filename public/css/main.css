@@ -1,0 +1,28 @@
+
+body {
+    background-color: aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form {
+    border: 1px solid black;
+    margin: 3em;
+    padding: 3em;
+}
+
+#result {
+    border: 1px solid black;
+    margin: 3em;
+    padding: 3em;
+    text-align: center;
+}
+#result-text {
+    height: 40px;
+}
+
+.red-text {
+    color: red;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Roman Numeral Converter</title>
+</head>
+<body>
+<h1>Roman Numeral Converter</h1>
+<div>
+<form id="form" action="/" method="POST">
+    <input type="number" name="value" min="0" max="1000">
+    <button type="submit">Convert</button>
+</form>
+<div id="result">
+    <h1 id="result-text"><%= value %></h1>
+</div>
+</div>
+<div id="info">
+    <h3>This converter currently only operates with numbers between <span class="red-text">1</span> and <span class="red-text">1000</span>.</h3>
+    <h3>To be used as an API, please go to <a href="./api/456">www.localhost:8000/api/{your number}</a></h3>
+</div>
+<script src="/js/javascript.js"></script> 
+</body>
+</html>
